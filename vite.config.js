@@ -4,7 +4,7 @@ export default defineConfig({
   base: './',
   build: {
     rollupOptions: {
-      input: ['index.html', 'cenik.html', 'kontakt.html', 'net-for-rent.html'],
+      input: ['index.html', 'cenik.html', 'kontakt.html'],
     },
   },
 })
