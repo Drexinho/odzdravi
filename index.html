@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obyčejně dobré zdraví | Výživa, masáže & sportovní poradenství – Kroměříž</title>
+  <meta name="description" content="Oldřich Petráš – výživové a sportovní poradenství, klasické a sportovní masáže v Kroměříži. Směr ku zdraví pro každého." />
+  <meta name="keywords" content="výživové poradenství, sportovní poradenství, masáže Kroměříž, klasická masáž, sportovní masáž, Oldřich Petráš, odzdravi" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.odzdravi.cz/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Obyčejně dobré zdraví | Výživa, masáže & sportovní poradenství" />
+  <meta property="og:description" content="Oldřich Petráš – výživové a sportovní poradenství, klasické a sportovní masáže v Kroměříži. Směr ku zdraví pro každého." />
+  <meta property="og:url" content="https://www.odzdravi.cz/" />
+  <meta property="og:locale" content="cs_CZ" />
+  <meta property="og:site_name" content="Obyčejně dobré zdraví" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Obyčejně dobré zdraví | Výživa, masáže & sportovní poradenství" />
+  <meta name="twitter:description" content="Oldřich Petráš – výživové a sportovní poradenství, klasické a sportovní masáže v Kroměříži. Směr ku zdraví pro každého." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="/src/main.js" type="module"></script>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.odzdravi.cz/#business",
+        "name": "Obyčejně dobré zdraví",
+        "description": "Výživové a sportovní poradenství, klasické a sportovní masáže v Kroměříži. Směr ku zdraví pro každého.",
+        "url": "https://www.odzdravi.cz/",
+        "telephone": "+420775233607",
+        "email": "petras@odzdravi.cz",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kroměříž",
+          "addressRegion": "Zlínský kraj",
+          "addressCountry": "CZ"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "url": "https://maps.app.goo.gl/mgZ2z3ujesY8CCB37"
+        },
+        "areaServed": { "@type": "City", "name": "Kroměříž" },
+        "priceRange": "Ceník na vyžádání",
+        "sameAs": []
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.odzdravi.cz/#person",
+        "name": "Oldřich Petráš",
+        "jobTitle": "Výživový a sportovní poradce, masér",
+        "worksFor": { "@id": "https://www.odzdravi.cz/#business" },
+        "telephone": "+420775233607",
+        "email": "petras@odzdravi.cz"
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="font-sans text-sage-900 bg-cream antialiased">
+  <!-- Navigation -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-sage-200/60">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="font-display font-semibold text-xl text-sage-800">Obyčejně dobré zdraví</a>
+        <ul class="hidden md:flex items-center gap-8 text-sage-700 font-medium">
+          <li><a href="index.html#domu" class="hover:text-sage-600 transition">Domů</a></li>
+          <li><a href="index.html#kdo-jsem" class="hover:text-sage-600 transition">Kdo jsem</a></li>
+          <li><a href="index.html#sluzby" class="hover:text-sage-600 transition">Služby</a></li>
+          <li><a href="cenik.html" class="hover:text-sage-600 transition">Ceník</a></li>
+          <li><a href="net-for-rent.html" class="hover:text-sage-600 transition">Net for rent</a></li>
+          <li><a href="kontakt.html" class="hover:text-sage-600 transition">Kontakt</a></li>
+        </ul>
+        <button id="menu-toggle" type="button" class="md:hidden p-2 text-sage-700" aria-label="Otevřít nebo zavřít menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden py-4 border-t border-sage-200" role="region" aria-label="Navigace">
+        <ul class="flex flex-col gap-4 text-sage-700">
+          <li><a href="index.html#domu" class="block py-1">Domů</a></li>
+          <li><a href="index.html#kdo-jsem" class="block py-1">Kdo jsem</a></li>
+          <li><a href="index.html#sluzby" class="block py-1">Služby</a></li>
+          <li><a href="cenik.html" class="block py-1">Ceník</a></li>
+          <li><a href="net-for-rent.html" class="block py-1">Net for rent</a></li>
+          <li><a href="kontakt.html" class="block py-1">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="domu" class="relative min-h-[60vh] flex flex-col justify-center pt-20 pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <div class="hero-bg-image absolute inset-0 bg-cover bg-center" aria-hidden="true"></div>
+      <div class="absolute inset-0 bg-cream/75" aria-hidden="true"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-sage-100/50 via-transparent to-sage-50/40" aria-hidden="true"></div>
+      <div class="relative max-w-6xl mx-auto w-full text-center">
+        <h1 class="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-sage-800 tracking-tight">
+          Obyčejně dobré zdraví
+        </h1>
+        <p class="mt-4 text-xl sm:text-2xl text-sage-600 font-light">pro všechny</p>
+        <a href="#sluzby" class="inline-block mt-10 px-8 py-4 bg-sage-600 text-white font-medium rounded-full hover:bg-sage-700 transition shadow-lg shadow-sage-600/25">
+          Chci se dozvědět více
+        </a>
+      </div>
+    </section>
+
+    <!-- Intro / Philosophy -->
+    <section class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white">
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="text-lg md:text-xl text-sage-700 leading-relaxed">
+          Zdravý životní styl je pro každého, a především jej všichni potřebujeme. Proto je můj přístup zřejmý ihned z názvu. <strong class="text-sage-800">Obyčejně</strong> znamená, že zdraví není jen pro sportovce, ale rovněž pro všechny obyčejné lidi. <strong class="text-sage-800">Dobré</strong> vyzdvihuje, že ačkoliv jsou klienty lidé bez sportovních ambicí, tak stále jsou mé služby vždy soustředěny na kvalitu a správnost informací, které předávám. A <strong class="text-sage-800">Zdraví</strong>… to je to, proč jsme tady a také jak dlouho tu ještě budeme.
+        </p>
+        <p class="mt-6 text-sage-600 font-medium">kvalitně · ať jsme tu navždy</p>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-sage-700 text-white">
+      <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12 text-center">
+        <div>
+          <p class="font-display text-5xl md:text-6xl font-semibold">350+</p>
+          <p class="mt-2 text-sage-200">Hodin studia a kurzů</p>
+        </div>
+        <div>
+          <p class="font-display text-5xl md:text-6xl font-semibold">3600+</p>
+          <p class="mt-2 text-sage-200">Provedených masáží</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Služby - Moje služby -->
+    <section id="sluzby" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-cream">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="font-display text-3xl md:text-4xl font-semibold text-sage-800 text-center mb-4">Moje služby</h2>
+        <p class="text-sage-600 text-center max-w-2xl mx-auto mb-16">Výživové a sportovní poradenství i masáže – jednotlivě nebo v kombinaci, vždy s důrazem na pravidelnost a péči o tělo.</p>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <article class="bg-white rounded-2xl p-8 shadow-sm border border-sage-100 hover:shadow-md hover:border-sage-200 transition">
+            <h3 class="font-display text-xl font-semibold text-sage-800">Směr ku zdraví</h3>
+            <p class="mt-3 text-sage-600 text-sm leading-relaxed">Osobní konzultace za účelem zlepšení životního stylu – vzdělání v oblasti výživy a sportu, rady a odpovědi na dotazy.</p>
+            <a href="#směr-ku-zdravi" class="inline-block mt-5 text-sage-600 font-medium hover:text-sage-700">Chci vědět více →</a>
+          </article>
+          <article class="bg-white rounded-2xl p-8 shadow-sm border border-sage-100 hover:shadow-md hover:border-sage-200 transition">
+            <h3 class="font-display text-xl font-semibold text-sage-800">Klasické a sportovní masáže</h3>
+            <p class="mt-3 text-sage-600 text-sm leading-relaxed">Zmírnění napětí a bolesti svalů, únava, zotavení – masáž uvolňuje mysl a dodává energii.</p>
+            <a href="#masaze" class="inline-block mt-5 text-sage-600 font-medium hover:text-sage-700">Chci vědět více →</a>
+          </article>
+          <article class="bg-white rounded-2xl p-8 shadow-sm border border-sage-100 hover:shadow-md hover:border-sage-200 transition">
+            <h3 class="font-display text-xl font-semibold text-sage-800">Výživové poradenství</h3>
+            <p class="mt-3 text-sage-600 text-sm leading-relaxed">Nastavení stravovacích návyků, individuální plán, měření Inbody – 3 nebo 6 týdnů.</p>
+            <a href="#vyzivove-poradenstvi" class="inline-block mt-5 text-sage-600 font-medium hover:text-sage-700">Chci vědět více →</a>
+          </article>
+          <article class="bg-white rounded-2xl p-8 shadow-sm border border-sage-100 hover:shadow-md hover:border-sage-200 transition">
+            <h3 class="font-display text-xl font-semibold text-sage-800">Sportovní poradenství</h3>
+            <p class="mt-3 text-sage-600 text-sm leading-relaxed">Cíle, tréninkové rozložení, měření Inbody – 3 nebo 6 týdnů spolupráce.</p>
+            <a href="#sportovni-poradenstvi" class="inline-block mt-5 text-sage-600 font-medium hover:text-sage-700">Chci vědět více →</a>
+          </article>
+          <article class="bg-white rounded-2xl p-8 shadow-sm border border-sage-100 hover:shadow-md hover:border-sage-200 transition md:col-span-2 lg:col-span-1">
+            <h3 class="font-display text-xl font-semibold text-sage-800">Instruktáž bowlingu</h3>
+            <p class="mt-3 text-sage-600 text-sm leading-relaxed">Zlepšení v bowlingu jako sportu nebo příprava na večírek – klasický i sportovní způsob hodu.</p>
+            <a href="#bowling" class="inline-block mt-5 text-sage-600 font-medium hover:text-sage-700">Chci vědět více →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kde mě najdete -->
+    <section class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="font-display text-3xl font-semibold text-sage-800 mb-6">Kde mě najdete?</h2>
+        <!-- OBRÁZEK: místo / interiér – budova Sportcentra Paráda, vstup nebo pracovna (soubor: public/images/kde-me-najdete.jpg) -->
+        <figure class="mb-8 rounded-2xl overflow-hidden border border-sage-100 shadow-md aspect-video bg-sage-100">
+          <img src="/images/kde-me-najdete.jpg" alt="Pracoviště – Sportcentrum Paráda Kroměříž" class="w-full h-full object-cover" width="960" height="540" />
+        </figure>
+        <p class="text-sage-700 leading-relaxed">
+          Mé pracoviště se nachází ve <a href="https://maps.app.goo.gl/mgZ2z3ujesY8CCB37" target="_blank" rel="noopener" class="text-sage-600 underline hover:text-sage-700 font-medium">Sportcentru Paráda v Kroměříži</a>. Také můžete využít možnost mobilního lehátka – masáž si užijete v pohodlí Vašeho domova.
+        </p>
+      </div>
+    </section>
+
+    <!-- Masáže - detail -->
+    <section id="masaze" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-sage-50">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="font-display text-3xl font-semibold text-sage-800 mb-6">Klasické a sportovní masáže</h2>
+        <!-- OBRÁZEK: masáž – lehátko, ruce maséra, klidné prostředí (soubor: public/images/masaze.jpg) -->
+        <figure class="mb-8 rounded-2xl overflow-hidden border border-sage-100 shadow-md aspect-[4/3] bg-sage-100">
+          <img src="/images/masaze.jpg" alt="Klasická nebo sportovní masáž na lehátku" class="w-full h-full object-cover" width="960" height="720" />
+        </figure>
+        <p class="text-sage-700 leading-relaxed">
+          Základní typ masáže, při kterém masér za pomocí masážních technik zmírňuje napětí a bolestivost svalů, zbavuje tělo únavy, urychluje zotavení, zároveň masáž uvolňuje mysl, navozuje dobrou náladu, pohodu a tělu dodává energii. Při tomto typu masáže jsou využívány masážní oleje popřípadě emulze.
+        </p>
+        <p class="mt-4 text-sage-700 leading-relaxed">
+          Veškeré masáže jsou rozepsány do ceníku pod minutovou šarží, a to z důvodu rozdílnosti cílů masáží. Individuálně se liší masáž pro klienta, který bude chtít jen relaxovat a klienta, který bude mít bolestivý problém. <strong>Čas masáže bude vždy odpovídat možnostem maséra splnit přání klienta.</strong>
+        </p>
+        <p class="mt-4 text-sage-700 leading-relaxed">
+          Nelze očekávat, že každý bolestivý stav zvládneme eliminovat hned při první návštěvě. Dbejte na pravidelnost a dopřejte plnohodnotnou péči Vašemu tělu. S pečlivou prevencí, pravidelným cvičením a návštěvou maséra mnohem častěji předejdete veškerým potížím pohybového ústrojí. <a href="https://www.odzdravi.cz/kontraindikace" target="_blank" rel="noopener" class="text-sage-600 underline hover:text-sage-700">Pozorně si přečtěte, kdy na masáž nemůžete či nesmíte přijít.</a>
+        </p>
+
+        <div class="mt-10 p-6 bg-white rounded-xl border border-sage-100">
+          <h3 class="font-display text-lg font-semibold text-sage-800 mb-4">Orientační časy masáží</h3>
+          <ul class="grid sm:grid-cols-2 gap-2 text-sage-700">
+            <li><span class="font-medium">šíje</span> 25–40 min</li>
+            <li><span class="font-medium">záda</span> 40–70 min</li>
+            <li><span class="font-medium">prsní svaly</span> 15–30 min</li>
+            <li><span class="font-medium">horní končetiny</span> 30–50 min</li>
+            <li><span class="font-medium">břicho</span> 15–30 min</li>
+            <li><span class="font-medium">hýžďové svaly</span> 15–30 min</li>
+            <li><span class="font-medium">dolní končetiny</span> 45–70 min</li>
+          </ul>
+          <p class="mt-4 text-sage-600 font-medium">Možnost kombinací všech typů masáží!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Směr ku zdraví -->
+    <section id="směr-ku-zdravi" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="font-display text-3xl font-semibold text-sage-800 mb-6">Směr ku zdraví</h2>
+        <!-- OBRÁZEK: konzultace / vzdělávání – rozhovor, zápisky, wellness (soubor: public/images/smer-ku-zdravi.jpg) -->
+        <figure class="mb-8 rounded-2xl overflow-hidden border border-sage-100 shadow-md aspect-video bg-sage-100">
+          <img src="/images/smer-ku-zdravi.jpg" alt="Osobní konzultace směru ku zdraví" class="w-full h-full object-cover" width="960" height="540" />
+        </figure>
+        <p class="text-sage-700 leading-relaxed">
+          Jedná se o osobní konzultace za účelem zlepšení Vašeho životního stylu. Probíhá vzdělání v oblasti výživy a sportu, předání osobních i obecných rad a poznatků a samozřejmě odpovědi na veškeré Vaše dotazy. Průměrná délka konzultace je 40–90 minut.
+        </p>
+        <p class="mt-4 text-sage-600 italic">Skvělá volba pro jednorázové zorientování, zda je pro vás poradenství správnou volbou.</p>
+        <p class="mt-6 text-sage-700 leading-relaxed">
+          <strong>Měsíční kurz směru ku zdraví</strong> zahrnuje konzultace buď 1× či 2× týdně (4 nebo 8 sezení). Výuka je strukturalizovaná podle požadavků klienta. Cílem je vzdělat způsobem, díky kterému již nebudete potřebovat drahé jídelníčky a razantní diety.
+        </p>
+        <p class="mt-2 text-sage-600 italic">Skvělá volba pro celkové zorientování se v oblasti zdravého životního stylu.</p>
+      </div>
+    </section>
+
+    <!-- Výživové a sportovní poradenství + kombinovaný + bowling -->
+    <section id="vyzivove-poradenstvi" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-cream">
+      <div class="max-w-4xl mx-auto space-y-16">
+        <!-- OBRÁZEK: výživa / sport / Inbody – měření, zdravé jídlo, trénink (soubor: public/images/poradenstvi.jpg) -->
+        <figure class="rounded-2xl overflow-hidden border border-sage-100 shadow-md aspect-video bg-sage-100">
+          <img src="/images/poradenstvi.jpg" alt="Výživové a sportovní poradenství, měření Inbody" class="w-full h-full object-cover" width="960" height="540" />
+        </figure>
+        <div>
+          <h2 class="font-display text-3xl font-semibold text-sage-800 mb-6">Výživové poradenství</h2>
+          <p class="text-sage-700 leading-relaxed">
+            Poradenství v oblasti výživy v délce 3 nebo 6 týdnů: nastavíme zdravé stravovací návyky a sestrojíme individuální stravovací plán. Součástí je nauka o výživě a 2× měření na přístroji Inbody (analýza složení těla před a po ukončení spolupráce).
+          </p>
+        </div>
+        <div id="sportovni-poradenstvi">
+          <h2 class="font-display text-3xl font-semibold text-sage-800 mb-6">Sportovní poradenství</h2>
+          <p class="text-sage-700 leading-relaxed">
+            Poradenství v oblasti sportu a zdravého životního stylu v délce 3 nebo 6 týdnů. Nastavení či zhodnocení cílů, revize správného tréninkového rozložení. Součástí je nauka o sportu a tréninku a 2× měření na přístroji Inbody.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-display text-2xl font-semibold text-sage-800 mb-4">Kombinovaný program</h2>
+          <p class="text-sage-700 leading-relaxed">Poradenství výživové a sportovní jdoucí ruku v ruce.</p>
+        </div>
+        <div id="bowling">
+          <h2 class="font-display text-3xl font-semibold text-sage-800 mb-6">Instruktáž bowlingu</h2>
+          <p class="text-sage-700 leading-relaxed">
+            Zlepšit se v bowlingu jako sportu anebo se jen předvést před přáteli na večírcích – ať už klasický či sportovní způsob hodu, díky systematickému přístupu a vytrvalosti se naučíme, jak shodit vše, co Vám bude stát v cestě.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kdo jsem -->
+    <section id="kdo-jsem" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display text-3xl font-semibold text-sage-800 text-center mb-8">Kdo jsem</h2>
+        <!-- OBRÁZEK: portrét Oldřicha Petráše – přátelský, profesionální (soubor: public/images/kdo-jsem.jpg) -->
+        <figure class="mb-8 mx-auto max-w-sm rounded-2xl overflow-hidden border border-sage-100 shadow-md aspect-square bg-sage-100">
+          <img src="/images/kdo-jsem.jpg" alt="Oldřich Petráš – výživový a sportovní poradce, masér" class="w-full h-full object-cover" width="480" height="480" />
+        </figure>
+        <p class="text-sage-700 leading-relaxed">
+          Jmenuji se <strong>Oldřich Petráš</strong> a jsem partnerem pro Vaše zdraví. Čerpám ze zkušeností získaných v průběhu 20 let hraní fotbalu, 10 let navštěvování fit center a posiloven, 5 let vysokoškolského studia v Brně oboru regenerace a výživy ve sportu a svého zájmu se v těchto tématech vzdělávat. Též jsem certifikovaným masérem, čemuž se věnuji již 7 let. Ke zdraví neodmyslitelně patří hobby – nabízím i neakreditované kurzy bowlingu, který se stal jednou z mých vášní.
+        </p>
+        <p class="mt-6 text-sage-700 leading-relaxed">
+          Budu se těšit na spolupráci s Vámi. Mým záměrem bude splnit Vaše cíle a dopřát Vám veškeré zdraví, které Vám jen mohu přát.
+        </p>
+      </div>
+    </section>
+
+    <!-- Ceník -->
+    <section id="cenik" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-sage-50">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="font-display text-3xl font-semibold text-sage-800 text-center mb-6">Ceník</h2>
+        <p class="text-sage-700 text-center max-w-2xl mx-auto">
+          Ceník masáží je veden pod minutovou šarží. Konkrétní ceny služeb a balíčků Vám rádi sdělíme osobně nebo e-mailem.
+        </p>
+        <p class="text-center mt-6">
+          <a href="#kontakt" class="inline-block px-6 py-3 bg-sage-600 text-white font-medium rounded-full hover:bg-sage-700 transition">Napsat dotaz na ceník</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-sage-700 text-white">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="font-display text-3xl font-semibold mb-2">Obyčejně dobré zdraví</h2>
+        <p class="text-sage-200 mb-8">Chcete abych se ozval? Napište mi.</p>
+        <ul class="space-y-4 text-lg">
+          <li><a href="mailto:petras@odzdravi.cz" class="hover:text-sage-100 underline">petras@odzdravi.cz</a></li>
+          <li><a href="tel:+420775233607" class="hover:text-sage-100">+420 775 233 607</a></li>
+        </ul>
+        <form id="contact-form" class="mt-10 max-w-sm mx-auto" aria-label="Kontaktní formulář">
+          <label for="contact-email" class="sr-only">Váš e-mail</label>
+          <div class="flex gap-2">
+            <input type="email" id="contact-email" name="email" placeholder="Váš e-mail" required autocomplete="email" class="flex-1 px-4 py-3 rounded-lg text-sage-900 placeholder-sage-400 border-0 focus:ring-2 focus:ring-sage-400" />
+            <button type="submit" class="px-6 py-3 bg-white text-sage-800 font-medium rounded-lg hover:bg-sage-100 transition">Odeslat</button>
+          </div>
+          <p id="contact-feedback" class="mt-2 text-sm text-sage-200 sr-only" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-8 px-4 bg-sage-800 text-sage-300 text-center text-sm">
+    <p>© 2025 Obyčejně dobré zdraví. Všechna práva vyhrazena.</p>
+  </footer>
+</body>
+</html>
